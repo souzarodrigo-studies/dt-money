@@ -1,5 +1,5 @@
 import {createContext, ReactNode, useContext, useEffect, useState} from 'react';
-import {Transactions, TransactionsInput} from "../Model/Transaction";
+import {Transactions, TransactionsInput} from "../Models/Transaction";
 import {api} from "../services/api";
 
 interface TransactionsProviderProps {

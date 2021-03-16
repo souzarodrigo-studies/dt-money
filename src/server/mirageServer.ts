@@ -1,5 +1,5 @@
 import {createServer, Model} from "miragejs";
-import { IType } from "../enum/IType";
+import { IType } from "../helpers/IType";
 
 
 

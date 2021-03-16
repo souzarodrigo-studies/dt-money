@@ -1,4 +1,4 @@
-import { IType } from "../enum/IType";
+import { IType } from "../helpers/IType";
 
 interface Transactions {
     id: number,

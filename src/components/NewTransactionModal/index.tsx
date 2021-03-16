@@ -7,7 +7,7 @@ import {ActiveColor, Container, RadioBox, TransactionTypeContainer} from './styl
 import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import CloseImg from '../../assets/close.svg';
-import {IType} from "../../enum/IType";
+import {IType} from "../../helpers/IType";
 import { useTransactions } from "../../hooks/useTransactions";
 
 interface NewTransactionModalProps {
