@@ -1,5 +1,3 @@
-import ReactModal from "react-modal";
-
 import { Container, Content } from "./styles";
 
 import logoImg from '../../assets/logo.svg';

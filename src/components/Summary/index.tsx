@@ -5,6 +5,9 @@ import outcomeImg from '../../assets/outcome.svg';
 import totalImg from '../../assets/total.svg';
 
 export function Summary() {
+    
+    // const { transactions } = useContext(TransactionsContext);
+    
     return (
         <Container>
             <div>
