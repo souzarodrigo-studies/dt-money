@@ -8,7 +8,7 @@ import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import CloseImg from '../../assets/close.svg';
 import {IType} from "../../enum/IType";
-import {TransactionsContext} from "../../context/TransactionsContext";
+import { useTransactions } from "../../hooks/useTransactions";
 
 interface NewTransactionModalProps {
     onRequestClose: () => void;
@@ -19,7 +19,7 @@ interface NewTransactionModalProps {
 ReactModal.setAppElement('#root');
 
 export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionModalProps) {
-    const { createTransaction } = useContext(TransactionsContext);
+    const { createTransaction } = useTransactions();
     
     const [type, setType] = useState<IType>(IType.deposit);
     const [title, setTitle] = useState<string>('');
